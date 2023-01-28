@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="./style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <button class="btn btn--1">
+        <a href="./index.html" target="_blank"> Lab 1 </a>
+      </button>
+      <button class="btn btn--2">
+        <a href="./doc/index2.html" target="_blank"> Lab 2 </a>
+      </button>
+      <button class="btn btn--3">
+        <a href="./doc/index3.html" target="_blank">Tasks CSS</a>
+      </button>
+    </div>
+    <div class="container lab--1">
+      <select class="lab1-selector" name="lab1" id="#lab1-selector">
+        <option value="0">Video task</option>
+        <option value="1">Text Color Range</option>
+      </select>
+    </div>
+    <div class="container video-Task">
+      <video
+        src="./src/frozen.mp4"
+        width="600"
+        poster="./src/frozen.jpg"
+        id="vid"
+      ></video>
+      <div class="controls">
+        <input
+          style="width: 600px"
+          type="range"
+          min="0"
+          max="1"
+          value="0"
+          id="range-input"
+        />
+        <img
+          class="vid-btn full-screen"
+          src="./src/expand.png"
+          alt=""
+          width="20px"
+          height="20px"
+        />
+        <div class="container controls-btns">
+          <input
+            type="range"
+            id="speed-range"
+            min="0"
+            max="16"
+            step="1"
+            value="0"
+          />
+          <img
+            class="vid-btn backward"
+            src="./src/forward-button.png"
+            alt=""
+            width="30px"
+            height="30px"
+          />
+
+          <img
+            class="vid-btn play"
+            src="./src/play-button.png"
+            alt=""
+            width="30px"
+            height="30px"
+          />
+          <img
+            class="vid-btn forward"
+            src="./src/forward-button.png"
+            alt=""
+            width="30px"
+            height="30px"
+          />
+          <img
+            class="vid-btn speaker"
+            src="./src/speaker-filled-audio-tool.png"
+            alt=""
+            width="30px"
+            height="30px"
+          />
+          <input
+            type="range"
+            orient="vertical"
+            id="volume-range"
+            min="0"
+            max="1"
+            step="0.1"
+            value="1"
+          />
+        </div>
+      </div>
+    </div>
+    <div class="container color-range">
+      <input type="range" min="0" max="255" step="1" value="0" id="range-red" />
+      <h3>Red</h3>
+      <input
+        type="range"
+        min="0"
+        max="255"
+        step="1"
+        value="0"
+        id="range-green"
+      />
+      <h3>green</h3>
+      <input
+        type="range"
+        min="0"
+        max="255"
+        step="1"
+        value="0"
+        id="range-blue"
+      />
+      <h3>blue</h3>
+
+      <p class="colored-p" style="font-weight: bold">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis totam
+        assumenda quo dicta nihil iste quisquam modi laboriosam tenetur, a nemo,
+        quaerat neque, obcaecati corrupti nobis aliquid ipsam sint architecto.
+      </p>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

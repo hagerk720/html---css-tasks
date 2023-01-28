@@ -1,0 +1,9 @@
+.container {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+.task2 {
+  display: none;
+}

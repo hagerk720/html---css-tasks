@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+.container .btn {
+  margin-right: 15px;
+  padding: 5px;
+  width: 100px;
+  border-radius: 15px;
+  background-color: rgb(205, 203, 203);
+}
+.video-Task {
+  position: relative;
+}
+.video-Task video {
+  min-width: 600px;
+  height: 200px;
+  position: relative;
+}
+
+.controls {
+  position: absolute;
+  bottom: -80px;
+}
+.backward {
+  transform: rotate(180deg);
+}
+.controls-btns img {
+  margin-left: 10px;
+}
+input[type="range"][orient="vertical"] {
+  writing-mode: bt-lr;
+  -webkit-appearance: slider-vertical;
+  width: 3px;
+  height: 30px;
+  padding: 0 5px;
+  color: #121212;
+}
+.color-range {
+  display: none;
+  
+}
