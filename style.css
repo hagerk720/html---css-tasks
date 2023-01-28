@@ -40,5 +40,7 @@ input[type="range"][orient="vertical"] {
 }
 .color-range {
   display: none;
-  
+}
+.colored-p {
+  width: 400px;
 }
